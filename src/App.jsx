@@ -25,8 +25,14 @@ const App = () => {
     { id: "LH98QECEDGCXEN", name: "Monitor Profissional Samsung 4K 98\" QE98C LH98QECEDGCXEN", size: "98", image: "https://images.samsung.com/is/image/samsung/p6pim/de/lh98qecedgcxen/gallery/de-smart-signage-qe98c-512679-lh98qecedgcxen-542277667?$684_547_JPG$" },
     { id: "SBB-SNOWRAF/ZA", name: "Processadora Samsung Vídeo FHD SBB-SNOWRAF/ZA", size: "", image: "https://images.samsung.com/is/image/samsung/ca-snow-raf-sbb-snowraf-za-frontblack-485136258?$684_547_JPG$" },
     { id: "SBB-SS08NU1XZA", name: "Signage Samsung Player Box SBB-SS08NU1XZA", size: "", image: "https://images.samsung.com/is/image/samsung/p6pim/br/sbb-ss08nu1xza/gallery/br-sbb-ssnu-sbb-ss08nu1xza-534390652?$684_547_JPG$" },
-    { id: "VG-LFR33FWL/ZA", name: "Suporte Samsung Fixação 3x3 VG-LFR33FWL/ZA", size: "", image: "https://images.samsung.com/is/image/samsung/uk-the-wall-framekit-lfr08-vg-lfr08swwxen-front-188854963?$650_519_PNG$" }
-  ];
+    { id: "VG-LFR33FWL/ZA", name: "Suporte Samsung Fixação 3x3 VG-LFR33FWL/ZA", size: "", image: "https://images.samsung.com/is/image/samsung/uk-the-wall-framekit-lfr08-vg-lfr08swwxen-front-188854963?$650_519_PNG$" },
+    { id: "LH46VMBUBGBXZD", name: "Monitor Prof Samsung 46\" VM46BU VídeoWall LH46VMBUBGBXZD", size: "46", image: "https://images.samsung.com/is/image/samsung/p6pim/br/lh46vmbubgbxzd/gallery/br-smart-signage-vm55b-u-429306-lh46vmbubgbxzd-533044372?$684_547_JPG$" },
+    { id: "LH50QMRBBGCXZD", name: "Monitor Profissional Samsung LED 4K 50\" QM50R LH50QMRBBGCXZD", size: "50", image: "https://images.samsung.com/is/image/samsung/p6pim/latin_en/lh50qmbebgcxgo/gallery/latin-en-uhd-4k-500nit-lh50qmbebgcxgo-540714218?$684_547_JPG$" },
+    { id: "LH55QMRBBGCXZD", name: "Monitor Profissional Samsung LED 4K 55\" QM55R LH55QMRBBGCXZD", size: "55", image: "https://images.samsung.com/is/image/samsung/p6pim/br/lh55qmrbbgcxd/gallery/br-smart-signage-qe55qmrbbgcxd-529057943?$684_547_JPG$" },
+    { id: "LH65QMRBBGCXZD", name: "Monitor Profissional Samsung LED 4K 65\" QM65R LH65QMRBBGCXZD", size: "65", image: "https://images.samsung.com/is/image/samsung/p6pim/lb/lh65qmbebgcxen/gallery/lb-uhd-4k-500nit-426349-lh65qmbebgcxen-532797024?$684_547_JPG$" },
+    { id: "LH75QMRBBGCXZD", name: "Monitor Profissional Samsung LED 4K 75\" QM75R LH75QMRBBGCXZD", size: "75", image: "https://images.samsung.com/is/image/samsung/p6pim/lb/lh75qmbebgcxen/gallery/lb-uhd-4k-500nit-lh75qmbebgcxen-532750588?$684_547_JPG$" },
+    { id: "LH85QMRBBGCXZD", name: "Monitor Profissional Samsung LED 4K 85\" QM85R LH85QMRBBGCXZD", size: "85", image: "https://images.samsung.com/is/image/samsung/p6pim/africa_pt/lh85qmcebgcxen/gallery/africa-pt-4k-uhd-signage-lh85qmcebgcxen-538278516?$684_547_JPG$" },
+];
 
   const handleSearch = () => {
     const filtered = products.filter((product) => {
